@@ -30,15 +30,13 @@ header {
   width: 80%;
   font-size: 18px;
   padding: 15px 20px;
-  opacity: 0.6;
+  opacity: 0.5;
   color: rgb(0, 0, 0);
   font-weight: bold;
 }
 
 ::placeholder {
   color: rgb(0, 0, 0);
-
-  opacity: 1;
   font-size: 18px;
   font-weight: lighter;
 }
