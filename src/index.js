@@ -61,4 +61,33 @@ function handleSearchSubmit(event) {
 let form = document.querySelector("#search-form");
 form.addEventListener("submit", handleSearchSubmit);
 
+function displayForecast() {
+  let days = ["Tue", "Wed", "Thurs", "Fri", "Sat"];
+  let forecastHtml = "";
+
+  days.forEach(function (day) {
+    forecastHtml =
+      forecastHtml +
+      `
+    <div class="weather-forecast-day">
+            <div class="weather-forecast-date"> ${day} </div>
+            <img
+              src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/few-clouds-day.png"
+              class="weather-forecast-icon"
+            />
+            
+            <div class="weather-forecast-temperatures">
+              <div class="weather-forecast-temperature">
+                <strong>3°</strong>
+              </div>
+              <div class="weather-forecast-temperature">0°</div>
+            </div>
+          </div>
+          `;
+  });
+  let forecastElement = document.querySelector("#forecast");
+  forecastElement.innerHTML = forecastHtml;
+}
+
 searchCity("Chandigarh");
+displayForecast();

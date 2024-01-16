@@ -1,0 +1,67 @@
+
+          <div class="weather-forecast-day">
+            <div class="weather-forecast-date">Mon</div>
+            <img
+              src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/mist-night.png"
+              class="weather-forecast-icon"
+            />
+            <div class="weather-forecast-temperatures">
+              <div class="weather-forecast-temperature">
+                <strong>3°</strong>
+              </div>
+              <div class="weather-forecast-temperature">0°</div>
+            </div>
+          </div>
+          <div class="weather-forecast-day">
+            <div class="weather-forecast-date">Tue</div>
+            <img
+              src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png"
+              class="weather-forecast-icon"
+            />
+            <div class="weather-forecast-temperatures">
+              <div class="weather-forecast-temperature">
+                <strong>6°</strong>
+              </div>
+              <div class="weather-forecast-temperature">2°</div>
+            </div>
+          </div>
+          <div class="weather-forecast-day">
+            <div class="weather-forecast-date">Wed</div>
+            <img
+              src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/scattered-clouds-day.png"
+              class="weather-forecast-icon"
+            />
+            <div class="weather-forecast-temperatures">
+              <div class="weather-forecast-temperature">
+                <strong>4°</strong>
+              </div>
+              <div class="weather-forecast-temperature">1°</div>
+            </div>
+          </div>
+          <div class="weather-forecast-day">
+            <div class="weather-forecast-date">Thurs</div>
+            <img
+              src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/mist-night.png"
+              class="weather-forecast-icon"
+            />
+            <div class="weather-forecast-temperatures">
+              <div class="weather-forecast-temperature">
+                <strong>3°</strong>
+              </div>
+              <div class="weather-forecast-temperature">0°</div>
+            </div>
+          </div>
+          <div class="weather-forecast-day">
+            <div class="weather-forecast-date">Fri</div>
+            <img
+              src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/mist-night.png"
+              class="weather-forecast-icon"
+            />
+            <div class="weather-forecast-temperatures">
+              <div class="weather-forecast-temperature">
+                <strong>5°</strong>
+              </div>
+              <div class="weather-forecast-temperature">1°</div>
+            </div>
+          </div>
+        </div>
